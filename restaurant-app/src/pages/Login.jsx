@@ -11,7 +11,7 @@
     };
 
     return(
-        <div>
+        <div style={{border:"1px solid black",padding:"10px"}}>
             <h2>welcome to Login Page </h2>
             <button onClick={()=>handleLogin("admim")}>Admin </button>
             <button onClick={()=>handleLogin("customer")}>Customer</button>
